@@ -39,9 +39,6 @@
             </div>
           </v-col>
         </v-row>
-        <template v-for="image in images">
-          {{ image }}
-        </template>
       </v-card-text>
     </v-card>
   </div>
