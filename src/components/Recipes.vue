@@ -1,6 +1,6 @@
 <template>
-  <div v-for="(items, index) in recipes" :key="index">
-    <recipe-item :items="items"></recipe-item>
+  <div v-for="(item, key) in recipes" :key="key">
+    <recipe-item :item="item"></recipe-item>
   </div>
 </template>
 
@@ -16,12 +16,10 @@ export default defineComponent({
   setup() {
     const data = ref(0);
     const store = useCounterStore();
-    const { count, recipes } = storeToRefs(store);
+    const { recipes } = storeToRefs(store);
     return {
       data,
-      count,
       recipes,
-      total: 2,
     };
   },
 });

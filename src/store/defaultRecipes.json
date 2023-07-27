@@ -1,78 +1,81 @@
 {
-  "vodka": {
-    "destornillador": {
-      "name": "Destornillador",
-      "ingredients": {
-        "vodka": {
-          "oz": "1 1/2",
-          "ml": "45"
-        },
-        "orange_juice": {
-          "oz": "4",
-          "ml": "120"
-        }
+  "destornillador": {
+    "type": "vodka",
+    "name": "Destornillador",
+    "ingredients": {
+      "vodka": {
+        "oz": "1 1/2",
+        "ml": "45"
       },
-      "glass": "Vaso Largo",
-      "elaboration": "Directo",
-      "decoration": "Naranja",
-      "img": "destornillador"
+      "orange_juice": {
+        "oz": "4",
+        "ml": "120"
+      }
     },
-    "electric_lemon": {
-      "name": "Electric Lemon",
-      "ingredients": {
-        "vodka": {
-          "oz": "1 1/2",
-          "ml": "45"
-        },
-        "blue_curacao": {
-          "oz": "1",
-          "ml": "30"
-        },
-        "lemon_juice": {
-          "oz": "1",
-          "ml": "30"
-        },
-        "sprite": "1 unidad"
-      },
-      "glass": "vaso largo",
-      "elaboration": "directo"
-    },
-    "sex_on_the_beach": {
-      "name": "Sex on The Beach",
-      "ingredients": {
-        "vodka": {
-          "oz": "1 1/2",
-          "ml": "45"
-        },
-        "liqueur_peach": {
-          "oz": "1",
-          "ml": "30"
-        },
-        "orange_juice": {
-          "oz": "4",
-          "ml": "120"
-        },
-        "granadina": "1 dash"
-      },
-      "glass": "vaso largo",
-      "elaboration": "directo"
-    }
+    "glass": "Vaso Largo",
+    "elaboration": "Directo",
+    "decoration": "Naranja",
+    "img": "destornillador"
   },
-  "whisky": {
-    "padrino": {
-      "name": "Padrino",
-      "ingredients": {
-        "whisky": {
-          "oz": "1 1/4",
-          "ml": "38"
-        },
-        "liquer?amaretto": {
-          "oz": "1 1/4",
-          "ml": "38"
-        }
+  "electric_lemon": {
+    "type": "vodka",
+    "name": "Electric Lemon",
+    "ingredients": {
+      "vodka": {
+        "oz": "1 1/2",
+        "ml": "45"
       },
-      "glass": "old fashioned",
-      "elaboration": "directo"
-    }
+      "blue_curacao": {
+        "oz": "1",
+        "ml": "30"
+      },
+      "lemon_juice": {
+        "oz": "1",
+        "ml": "30"
+      },
+      "sprite": "1 unidad"
+    },
+    "glass": "vaso largo",
+    "elaboration": "directo",
+    "img": "electric_lemon"
+  },
+  "sex_on_the_beach": {
+    "type": "vodka",
+    "name": "Sex On The Beach",
+    "ingredients": {
+      "vodka": {
+        "oz": "1 1/2",
+        "ml": "45"
+      },
+      "liqueur_peach": {
+        "oz": "1",
+        "ml": "30"
+      },
+      "orange_juice": {
+        "oz": "4",
+        "ml": "120"
+      },
+      "granadina": "1 dash"
+    },
+    "glass": "vaso largo",
+    "elaboration": "directo",
+    "img": "sex_on_the_beach"
+  },
+  "padrino": {
+    "type": "whisky",
+    "name": "Padrino",
+    "ingredients": {
+      "whisky": {
+        "oz": "1 1/4",
+        "ml": "38"
+      },
+      "liquer_amaretto": {
+        "oz": "1 1/4",
+        "ml": "38"
+      }
+    },
+    "glass": "old fashioned",
+    "elaboration": "directo",
+    "img": "padrino"
   }
 }
